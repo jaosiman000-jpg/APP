@@ -52,7 +52,7 @@ export default function InicioPagina() {
   return (
     <div className="flex flex-col min-h-screen bg-brand-bg pb-24">
       {/* Header */}
-      <div className="px-5 pt-12 pb-5">
+      <div className="px-5 pt-[calc(2rem+env(safe-area-inset-top))] pb-5">
         <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
           <p className="text-brand-dim text-sm mb-0.5">Buenos días 👋</p>
           <h1 className="font-serif text-2xl font-medium text-brand-cream">

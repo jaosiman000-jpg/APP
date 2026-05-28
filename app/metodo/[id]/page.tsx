@@ -35,7 +35,7 @@ export default function ModuleDetailPage() {
   return (
     <div className="flex flex-col min-h-screen bg-brand-bg pb-24">
       {/* Header */}
-      <div className="sticky top-0 z-10 bg-brand-bg/90 backdrop-blur-sm border-b border-brand-border px-5 py-4 flex items-center gap-3">
+      <div className="sticky top-0 z-10 bg-brand-bg/90 backdrop-blur-sm border-b border-brand-border px-5 pt-[calc(1rem+env(safe-area-inset-top))] pb-4 flex items-center gap-3">
         <Link href="/metodo">
           <button className="w-8 h-8 rounded-lg bg-brand-surface flex items-center justify-center border border-brand-border transition-all active:scale-[0.9]">
             <ChevronLeft className="w-4 h-4 text-brand-cream" />

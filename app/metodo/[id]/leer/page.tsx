@@ -69,7 +69,7 @@ export default function LeerPage() {
   return (
     <div className="flex flex-col min-h-screen bg-[#0d0709]">
       {/* Sticky Header */}
-      <div className="sticky top-0 z-10 bg-brand-bg/95 backdrop-blur-sm border-b border-brand-border px-4 py-3 flex items-center justify-between">
+      <div className="sticky top-0 z-10 bg-brand-bg/95 backdrop-blur-sm border-b border-brand-border px-4 pt-[calc(0.75rem+env(safe-area-inset-top))] pb-3 flex items-center justify-between">
         <div className="flex items-center gap-2 flex-1 min-w-0">
           <Link href={`/metodo/${mod.id}`}>
             <button className="w-8 h-8 rounded-lg bg-brand-surface flex items-center justify-center border border-brand-border transition-all active:scale-[0.9] flex-shrink-0">

@@ -35,7 +35,7 @@ export default function MetodoPage() {
   return (
     <div className="flex flex-col min-h-screen bg-brand-bg pb-24">
       {/* Header */}
-      <div className="px-5 pt-12 pb-6">
+      <div className="px-5 pt-[calc(2rem+env(safe-area-inset-top))] pb-6">
         <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}>
           <h1 className="font-serif text-2xl font-medium text-brand-cream">Mi Método</h1>
           <p className="text-brand-muted text-sm mt-1">8 módulos para tu reposicionamiento emocional</p>
