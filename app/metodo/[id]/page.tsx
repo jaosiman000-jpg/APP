@@ -69,8 +69,8 @@ export default function ModuleDetailPage() {
             <div className="w-8 h-8 rounded-lg bg-brand-gold/10 flex items-center justify-center">
               <Clock className="w-4 h-4 text-brand-gold" />
             </div>
-            <p className="text-brand-muted text-xs">Formato</p>
-            <p className="text-brand-cream text-sm font-medium">PDF · {mod.readingTime}</p>
+            <p className="text-brand-muted text-xs">Lectura</p>
+            <p className="text-brand-cream text-sm font-medium">{mod.readingTime}</p>
           </div>
           <div className={cn(
             "rounded-2xl border p-4 flex flex-col gap-2",
@@ -102,7 +102,7 @@ export default function ModuleDetailPage() {
           <Link href={`/metodo/${mod.id}/leer`}>
             <button className="w-full bg-gradient-to-r from-brand-gold to-brand-goldDark text-brand-bg font-semibold rounded-xl py-3.5 text-sm flex items-center justify-center gap-2 transition-all duration-200 active:scale-[0.98] shadow-md shadow-brand-gold/20">
               <BookOpen className="w-4 h-4" />
-              Abrir PDF
+              Abrir lectura
             </button>
           </Link>
           <a href={mod.pdfPath} download={`modulo-${mod.id}.pdf`}>

@@ -92,7 +92,7 @@ export default function MetodoPage() {
                         state === 'reading' && "bg-brand-gold/20 text-brand-gold",
                         state === 'unstarted' && "bg-brand-bg text-brand-dim"
                       )}>
-                        {state === 'completed' ? 'Completado · PDF' : state === 'reading' ? 'Leyendo · PDF' : 'PDF'}
+                        {state === 'completed' ? 'Completado' : state === 'reading' ? 'Leyendo' : 'Lectura'}
                       </span>
                     </div>
                   </div>

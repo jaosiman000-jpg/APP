@@ -42,7 +42,7 @@ export function PdfViewer({ url, onPageChange }: PdfViewerProps) {
       {loading && (
         <div className="flex flex-col items-center justify-center py-20 gap-4">
           <div className="w-8 h-8 rounded-full border-2 border-brand-gold border-t-transparent animate-spin" />
-          <p className="text-brand-dim text-sm">Cargando PDF...</p>
+          <p className="text-brand-dim text-sm">Cargando...</p>
         </div>
       )}
 

@@ -57,9 +57,10 @@ export default function OnboardingPage() {
   };
 
   const iosSteps = [
-    { num: 1, text: 'Toca el botón compartir', emoji: '□↑', detail: 'en la barra inferior del navegador' },
-    { num: 2, text: "Desliza y selecciona", emoji: '➕', detail: '"Añadir a pantalla de inicio"' },
-    { num: 3, text: 'Toca "Añadir"', emoji: '✓', detail: 'en la esquina superior derecha' },
+    { num: 1, text: "Toca los tres puntos '...'", emoji: '⋯', detail: 'al lado de la barra de búsqueda' },
+    { num: 2, text: "Selecciona 'Compartir'", emoji: '📤', detail: 'o "Share" en el menú' },
+    { num: 3, text: "Toca en 'Ver más'", emoji: '➕', detail: 'o "View more" en la lista' },
+    { num: 4, text: "Añadir a pantalla de inicio", emoji: '📲', detail: 'o "Add to home screen" para instalar' },
   ];
 
   const androidSteps = [
