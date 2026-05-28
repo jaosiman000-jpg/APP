@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { Heart, Smartphone, Apple, Download, Check } from 'lucide-react';
+import { Smartphone, Apple, Download, Check } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { isIOS, isAndroid } from '@/lib/platform';
 import { getSession, setSession } from '@/lib/storage';
@@ -85,8 +85,8 @@ export default function OnboardingPage() {
           transition={{ duration: 0.4 }}
           className="flex flex-col items-center mb-8"
         >
-          <div className="w-16 h-16 rounded-full bg-brand-surface border border-brand-gold/30 flex items-center justify-center mb-4 shadow-lg shadow-brand-gold/10">
-            <Heart className="w-7 h-7 text-brand-gold fill-brand-gold/30" />
+          <div className="w-16 h-16 rounded-full bg-brand-surface border border-brand-gold/30 overflow-hidden flex items-center justify-center mb-4 shadow-lg shadow-brand-gold/10">
+            <img src="/icons/icon-192.png" alt="Logo Reconquista Magnética" className="w-full h-full object-cover" />
           </div>
           <h1 className="font-serif text-xl font-medium text-brand-cream text-center">
             Instala la app

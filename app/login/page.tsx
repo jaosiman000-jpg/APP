@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { Heart, Mail, ArrowRight, Sparkles } from 'lucide-react';
+import { Mail, ArrowRight, Sparkles } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { setSession } from '@/lib/storage';
 import { toast } from 'sonner';
@@ -51,8 +51,8 @@ export default function LoginPage() {
           transition={{ duration: 0.5, ease: 'easeOut' }}
           className="flex flex-col items-center mb-10"
         >
-          <div className="w-[72px] h-[72px] rounded-full bg-brand-surface border-2 border-brand-gold/40 flex items-center justify-center shadow-lg shadow-brand-gold/10 mb-5">
-            <Heart className="w-8 h-8 text-brand-gold fill-brand-gold/30" />
+          <div className="w-[72px] h-[72px] rounded-full bg-brand-surface border-2 border-brand-gold/40 overflow-hidden flex items-center justify-center shadow-lg shadow-brand-gold/10 mb-5">
+            <img src="/icons/icon-192.png" alt="Logo Reconquista Magnética" className="w-full h-full object-cover" />
           </div>
           <h1 className="font-serif text-[22px] font-medium text-brand-cream tracking-wide text-center">
             Reconquista Magnética
