@@ -77,8 +77,8 @@ export default function PerfilPage() {
       id: 'support',
       icon: Mail,
       label: 'Soporte por correo',
-      desc: 'soporte@reconquista.app',
-      onClick: () => { window.location.href = 'mailto:soporte@reconquista.app'; },
+      desc: 'advjoaosiman@gmail.com',
+      onClick: () => { window.location.href = 'mailto:advjoaosiman@gmail.com'; },
       color: 'text-brand-muted',
     },
     {
@@ -213,7 +213,7 @@ export default function PerfilPage() {
             Ofrecemos garantía total de devolución durante los primeros 7 días desde tu compra.
             Si no estás satisfecha con el contenido por cualquier motivo, contacta a nuestro equipo
             de soporte y procesaremos tu reembolso sin preguntas dentro de las 48 horas hábiles siguientes.
-            Para solicitar el reembolso, escríbenos a soporte@reconquista.app con el asunto
+            Para solicitar el reembolso, escríbenos a advjoaosiman@gmail.com con el asunto
             "Solicitud de reembolso" y el correo con el que realizaste la compra.
           </DialogDescription>
         </DialogContent>
